@@ -7,13 +7,24 @@ body{
     display: grid;
     place-items: center;
     min-height: 100vh;
-   
+    background: linear-gradient(to right, #fff, #ffecd2);
 }
 .container{
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: 280px;
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 20px;
     width: 400px;
-     background-color: 0 0 10px rgba(154, 91, 9, 0.703)
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.card{
+    padding: 20px;
+    width: auto;
+    margin-bottom: 15px;
+}
+.property{
+    margin: 12px 0;
+    align-items: flex-start;
+    display: flex;
+    column-gap: 15px;
 }
