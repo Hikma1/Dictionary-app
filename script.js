@@ -8,3 +8,5 @@ async function dictionaryFn(word) {
 .then((res) => res.json())
 console.log(res)
 }   
+
+dictionaryFn('chair')
