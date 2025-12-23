@@ -8,10 +8,13 @@ async function dictionaryFn(word) {
 .then((res) => res.json())
 console.log(res)
 }   
+btn.addEventListener('click',fetchandCreateCard)
 
 async function fetchandCreateCard(){
     const data = dictionaryFn(input.value)
+
+
+    console.log(data)
 }
 
 
-dictionaryFn('chair')
