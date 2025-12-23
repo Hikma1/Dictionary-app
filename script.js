@@ -11,7 +11,7 @@ console.log(res)
 btn.addEventListener('click',fetchandCreateCard)
 
 async function fetchandCreateCard(){
-    const data = dictionaryFn(input.value)
+    const data = await dictionaryFn(input.value)
 
 
     console.log(data)
