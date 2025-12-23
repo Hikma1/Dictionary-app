@@ -9,4 +9,9 @@ async function dictionaryFn(word) {
 console.log(res)
 }   
 
+async function fetchandCreateCard(){
+    const data = dictionaryFn(input.value)
+}
+
+
 dictionaryFn('chair')
